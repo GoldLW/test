@@ -18,4 +18,12 @@ body{
     padding: 20px;
     border-radius: 15px;
 }
+.card__image{
+    width: 50%;
+    transition: 0.5s;
+}
+
+.card:hover .card__img {
+	transform: translateY(-90px) rotate(-20deg);
+}
 
